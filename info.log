@@ -1,0 +1,192 @@
+info: [index.js] Starting deobfuscation process for file ./opt.js. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] Generating AST from obfuscated source code. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] Deobfuscating AST. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] 1/12) Deobfuscating stage 'StringArray'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 1/1) Transform 'StringArraySyntheticTransformer'. {"timestamp":"21:10:57"}
+info: [stage_03_stringarray.js] stringArrayTemplateFunctionName = _0xa5c0. {"timestamp":"21:10:57"}
+info: [stage_03_stringarray.js] stringArrayCallsWrapperTemplateFunctionName = _0x4808. {"timestamp":"21:10:57"}
+info: [stage_03_stringarray.js] Found nodeWithStringArrayRotateFunction. {"timestamp":"21:10:57"}
+info: Addding found stringarray template to execution context. {"timestamp":"21:10:57"}
+info: Addding found stringarray calls wrappers templates to execution context. {"timestamp":"21:10:57"}
+info: Addding found stringarray rotate template to execution context. {"timestamp":"21:10:57"}
+info: Finished adding stringarray specific nodes. {"timestamp":"21:10:57"}
+info: Replacing stringarray calls with actual strings - START. {"timestamp":"21:10:57"}
+info: Replacing calls in scope nr. 1. {"timestamp":"21:10:57"}
+info: Replacing calls in scope nr. 2. {"timestamp":"21:10:57"}
+info: Replacing calls in scope nr. 3. {"timestamp":"21:10:57"}
+info: Replacing calls in scope nr. 4. {"timestamp":"21:10:57"}
+info: Replacing calls in scope nr. 5. {"timestamp":"21:10:57"}
+info: Replacing calls in scope nr. 6. {"timestamp":"21:10:57"}
+info: Replacing calls in scope nr. 7. {"timestamp":"21:10:57"}
+info: Replacing stringarray calls with actual strings - FINISH. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] 2/12) Deobfuscating stage 'EmbeddedEval'. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] 1/2) Transform 'FinalizingEvalCallExpressionTransformer'. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] 1/2) Transform 'FinalizingEscapeSequenceTransformer'. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] 3/12) Deobfuscating stage 'Finalizing'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 1/3) Transform 'FinalizingDirectivePlacementTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 2/3) Transform 'FinalizingCustomCodeHelpersTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 3/3) Transform 'FinalizingCommentsTransformer'. {"timestamp":"21:10:57"}
+info: [deobfuscator.js] 4/12) Deobfuscating stage 'Simplifying'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 1/5) Transform 'SimplifyingIfStatementSimplifyTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 2/5) Transform 'SimplifyingBlockStatementSimplifyTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 3/5) Transform 'SimplifyingExpressionStatementsMergeTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 4/5) Transform 'SimplifyingCustomCodeHelpersTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 5/5) Transform 'SimplifyingVariableDeclarationsMergeTransformer'. {"timestamp":"21:10:57"}
+info: [stage_02_simplifying.js] Found difference in simplifying. Running again. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 1/5) Transform 'SimplifyingIfStatementSimplifyTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 2/5) Transform 'SimplifyingBlockStatementSimplifyTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 3/5) Transform 'SimplifyingExpressionStatementsMergeTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 4/5) Transform 'SimplifyingCustomCodeHelpersTransformer'. {"timestamp":"21:10:57"}
+info: [stage_deobfuscator.js] 5/5) Transform 'SimplifyingVariableDeclarationsMergeTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 5/12) Deobfuscating stage 'RenameIdentifiers'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/5) Transform 'RenameIdentifiersCustomCodeHelpersTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 2/5) Transform 'RenameIdentifiersScopeThroughIdentifiersTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 3/5) Transform 'RenameIdentifiersScopeIdentifiersTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 4/5) Transform 'RenameIdentifiersLabeledStatementTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 5/5) Transform 'RenameIdentifiersVariablePreserveTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 6/12) Deobfuscating stage 'Converting'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/13) Transform 'ConvertingSplitStringTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 2/13) Transform 'ConvertingNumberLiteralTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 3/13) Transform 'ConvertingCustomCodeHelpersTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 4/13) Transform 'ConvertingObjectExpressionKeysTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 5/13) Transform 'ConvertingTemplateLiteralTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 6/13) Transform 'ConvertingObjectPatternPropertiesTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 7/13) Transform 'ConvertingObjectExpressionTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 8/13) Transform 'ConvertingNumberToNumericalExpressionTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 9/13) Transform 'ConvertingMemberExpressionTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 10/13) Transform 'ConvertingExportSpecifierTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 11/13) Transform 'ConvertingVariablePreserveTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 12/13) Transform 'ConvertingClassFieldTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 13/13) Transform 'ConvertingBooleanLiteralTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 7/12) Deobfuscating stage 'RenameProperties'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/1) Transform 'RenamePropertiesRenamePropertiesTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 8/12) Deobfuscating stage 'ControlFlowFlattening'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/3) Transform 'ControlFlowFlatteningFunctionControlFlowTransformer'. {"timestamp":"21:10:58"}
+info: [stage_07_controflowflattening.js] 1/4) Replacer 'ControlFlowFlatteningBinaryExpressionControlFlowReplacer'. {"timestamp":"21:10:58"}
+info: [stage_07_controflowflattening.js] 2/4) Replacer 'ControlFlowFlatteningCallExpressionControlFlowReplacer'. {"timestamp":"21:10:58"}
+info: [stage_07_controflowflattening.js] 3/4) Replacer 'ControlFlowFlatteningLogicalExpressionControlFlowReplacer'. {"timestamp":"21:10:58"}
+info: [stage_07_controflowflattening.js] 4/4) Replacer 'ControlFlowFlatteningStringLiteralControlFlowReplacer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 2/3) Transform 'ControlFlowFlatteningCustomCodeHelpersTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 3/3) Transform 'ControlFlowFlatteningBlockStatementControlFlowTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 9/12) Deobfuscating stage 'DeadCodeInjection'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/1) Transform 'DeadCodeInjectionDeadCodeInjectionTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 10/12) Deobfuscating stage 'Preparing'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/8) Transform 'PreparingParentificationTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 2/8) Transform 'PreparingRenamePropertiesTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 3/8) Transform 'PreparingVariablePreserveTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 4/8) Transform 'PreparingCustomCodeHelpersTransformer'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Remover 'ConsoleOutputDisableRemover'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Remover 'SelfDefendingRemover'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Remover 'DebugProtectionRemover'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Debug protection remover 'DebugProtectionFunctionTemplate'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Debug protection remover 'DebugProtectionFunctionCallTemplate'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Debug protection remover 'DebugProtectionFunctionIntervalTemplate'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Remover 'DomainLockRemover'. {"timestamp":"21:10:58"}
+info: [stage_09_preparing.js] Remover 'CallsControllerRemover'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 5/8) Transform 'PreparingEvalCallExpressionTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 6/8) Transform 'PreparingMetadataTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 7/8) Transform 'PreparingObfuscatingGuardsTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 8/8) Transform 'PreparingDirectivePlacementTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 11/12) Deobfuscating stage 'Initializing'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/2) Transform 'InitializingCommentsTransformer'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 2/2) Transform 'InitializingCustomCodeHelpersTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] 12/12) Deobfuscating stage 'Finishing'. {"timestamp":"21:10:58"}
+info: [stage_deobfuscator.js] 1/1) Transform 'FinishingConvertingNumberToNumericalExpressionTransformer'. {"timestamp":"21:10:58"}
+info: [deobfuscator.js] Generating source code from deobfuscated AST. {"timestamp":"21:10:58"}
+info: [index.js] Finished deobfuscation process. {"timestamp":"21:10:58"}
+info: [index.js] Starting deobfuscation process for file ./obfuscatedOutput.js. {"timestamp":"21:19:34"}
+info: [deobfuscator.js] Generating AST from obfuscated source code. {"timestamp":"21:19:34"}
+info: [deobfuscator.js] Deobfuscating AST. {"timestamp":"21:19:34"}
+info: [deobfuscator.js] 1/12) Deobfuscating stage 'StringArray'. {"timestamp":"21:19:34"}
+info: [stage_deobfuscator.js] 1/1) Transform 'StringArraySyntheticTransformer'. {"timestamp":"21:19:34"}
+info: [stage_03_stringarray.js] stringArrayTemplateFunctionName = _0x1340. {"timestamp":"21:19:34"}
+info: [stage_03_stringarray.js] stringArrayCallsWrapperTemplateFunctionName = _0x3964. {"timestamp":"21:19:34"}
+info: [stage_03_stringarray.js] Found nodeWithStringArrayRotateFunction. {"timestamp":"21:19:34"}
+info: Addding found stringarray template to execution context. {"timestamp":"21:19:34"}
+info: Addding found stringarray calls wrappers templates to execution context. {"timestamp":"21:19:34"}
+info: Addding found stringarray rotate template to execution context. {"timestamp":"21:19:34"}
+info: Finished adding stringarray specific nodes. {"timestamp":"21:19:34"}
+info: Replacing stringarray calls with actual strings - START. {"timestamp":"21:19:34"}
+info: Replacing calls in scope nr. 1. {"timestamp":"21:19:34"}
+info: Replacing calls in scope nr. 2. {"timestamp":"21:19:34"}
+info: Replacing calls in scope nr. 3. {"timestamp":"21:19:34"}
+info: Replacing calls in scope nr. 4. {"timestamp":"21:19:34"}
+info: Replacing calls in scope nr. 5. {"timestamp":"21:19:34"}
+info: Replacing calls in scope nr. 6. {"timestamp":"21:19:35"}
+info: Replacing calls in scope nr. 7. {"timestamp":"21:19:35"}
+info: Replacing stringarray calls with actual strings - FINISH. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 2/12) Deobfuscating stage 'EmbeddedEval'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 1/2) Transform 'FinalizingEvalCallExpressionTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 1/2) Transform 'FinalizingEscapeSequenceTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 3/12) Deobfuscating stage 'Finalizing'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/3) Transform 'FinalizingDirectivePlacementTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/3) Transform 'FinalizingCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 3/3) Transform 'FinalizingCommentsTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 4/12) Deobfuscating stage 'Simplifying'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/5) Transform 'SimplifyingIfStatementSimplifyTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/5) Transform 'SimplifyingBlockStatementSimplifyTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 3/5) Transform 'SimplifyingExpressionStatementsMergeTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 4/5) Transform 'SimplifyingCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 5/5) Transform 'SimplifyingVariableDeclarationsMergeTransformer'. {"timestamp":"21:19:35"}
+info: [stage_02_simplifying.js] Found difference in simplifying. Running again. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/5) Transform 'SimplifyingIfStatementSimplifyTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/5) Transform 'SimplifyingBlockStatementSimplifyTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 3/5) Transform 'SimplifyingExpressionStatementsMergeTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 4/5) Transform 'SimplifyingCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 5/5) Transform 'SimplifyingVariableDeclarationsMergeTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 5/12) Deobfuscating stage 'RenameIdentifiers'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/5) Transform 'RenameIdentifiersCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/5) Transform 'RenameIdentifiersScopeThroughIdentifiersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 3/5) Transform 'RenameIdentifiersScopeIdentifiersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 4/5) Transform 'RenameIdentifiersLabeledStatementTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 5/5) Transform 'RenameIdentifiersVariablePreserveTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 6/12) Deobfuscating stage 'Converting'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/13) Transform 'ConvertingSplitStringTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/13) Transform 'ConvertingNumberLiteralTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 3/13) Transform 'ConvertingCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 4/13) Transform 'ConvertingObjectExpressionKeysTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 5/13) Transform 'ConvertingTemplateLiteralTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 6/13) Transform 'ConvertingObjectPatternPropertiesTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 7/13) Transform 'ConvertingObjectExpressionTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 8/13) Transform 'ConvertingNumberToNumericalExpressionTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 9/13) Transform 'ConvertingMemberExpressionTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 10/13) Transform 'ConvertingExportSpecifierTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 11/13) Transform 'ConvertingVariablePreserveTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 12/13) Transform 'ConvertingClassFieldTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 13/13) Transform 'ConvertingBooleanLiteralTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 7/12) Deobfuscating stage 'RenameProperties'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/1) Transform 'RenamePropertiesRenamePropertiesTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 8/12) Deobfuscating stage 'ControlFlowFlattening'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/3) Transform 'ControlFlowFlatteningFunctionControlFlowTransformer'. {"timestamp":"21:19:35"}
+info: [stage_07_controflowflattening.js] 1/4) Replacer 'ControlFlowFlatteningBinaryExpressionControlFlowReplacer'. {"timestamp":"21:19:35"}
+info: [stage_07_controflowflattening.js] 2/4) Replacer 'ControlFlowFlatteningCallExpressionControlFlowReplacer'. {"timestamp":"21:19:35"}
+info: [stage_07_controflowflattening.js] 3/4) Replacer 'ControlFlowFlatteningLogicalExpressionControlFlowReplacer'. {"timestamp":"21:19:35"}
+info: [stage_07_controflowflattening.js] 4/4) Replacer 'ControlFlowFlatteningStringLiteralControlFlowReplacer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/3) Transform 'ControlFlowFlatteningCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 3/3) Transform 'ControlFlowFlatteningBlockStatementControlFlowTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 9/12) Deobfuscating stage 'DeadCodeInjection'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/1) Transform 'DeadCodeInjectionDeadCodeInjectionTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 10/12) Deobfuscating stage 'Preparing'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/8) Transform 'PreparingParentificationTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/8) Transform 'PreparingRenamePropertiesTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 3/8) Transform 'PreparingVariablePreserveTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 4/8) Transform 'PreparingCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Remover 'ConsoleOutputDisableRemover'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Remover 'SelfDefendingRemover'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Remover 'DebugProtectionRemover'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Debug protection remover 'DebugProtectionFunctionTemplate'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Debug protection remover 'DebugProtectionFunctionCallTemplate'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Debug protection remover 'DebugProtectionFunctionIntervalTemplate'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Remover 'DomainLockRemover'. {"timestamp":"21:19:35"}
+info: [stage_09_preparing.js] Remover 'CallsControllerRemover'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 5/8) Transform 'PreparingEvalCallExpressionTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 6/8) Transform 'PreparingMetadataTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 7/8) Transform 'PreparingObfuscatingGuardsTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 8/8) Transform 'PreparingDirectivePlacementTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 11/12) Deobfuscating stage 'Initializing'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/2) Transform 'InitializingCommentsTransformer'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 2/2) Transform 'InitializingCustomCodeHelpersTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] 12/12) Deobfuscating stage 'Finishing'. {"timestamp":"21:19:35"}
+info: [stage_deobfuscator.js] 1/1) Transform 'FinishingConvertingNumberToNumericalExpressionTransformer'. {"timestamp":"21:19:35"}
+info: [deobfuscator.js] Generating source code from deobfuscated AST. {"timestamp":"21:19:35"}
+info: [index.js] Finished deobfuscation process. {"timestamp":"21:19:35"}

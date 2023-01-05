@@ -1,0 +1,32 @@
+{
+  "name": "js-obfuscator-deobfuscator",
+  "version": "1.0.2",
+  "description": "",
+  "keywords": [
+    "deobfuscation",
+    "deobfuscator",
+    "deobfuscate",
+    "obfuscation",
+    "obfuscator",
+    "obfuscate",
+    "unpack",
+    "unpacker",
+    "javascript"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  
+  "dependencies": {
+    "escodegen": "^2.0.0",
+    "esprima": "^4.0.1",
+    "esquery": "^1.4.0",
+    "estraverse": "^5.3.0",
+    "javascript-obfuscator": "^4.0.0",
+    "winston": "^3.8.1",
+    "yargs": "^17.5.1"
+  }
+}
